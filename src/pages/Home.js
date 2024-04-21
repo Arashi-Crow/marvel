@@ -1,9 +1,10 @@
 import React from 'react'
+import BestCharacters from '../components/BestCharacters'
 
 export default function Home() {
   return (
     <div>
-      Inside Home
+      <BestCharacters/>
     </div>
   )
 }
