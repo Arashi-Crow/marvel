@@ -5,8 +5,8 @@ export default function LastEvents({ lastEventsFetch }) {
   const { loading, result } = lastEventsFetch;
   if (loading || !result)
     return (
-      <Dimmer active inverted>
-        <Loader inverted>Loading</Loader>
+      <Dimmer active>
+        <Loader size="massive">Loading</Loader>
       </Dimmer>
     );
 
@@ -38,7 +38,7 @@ export default function LastEvents({ lastEventsFetch }) {
           target="_blank"
           color="black"
         >
-          <Button.Content visible>Ver Evento</Button.Content>
+          <Button.Content visible>See Event</Button.Content>
           <Button.Content hidden>
             <Icon name="arrow right" />
           </Button.Content>
