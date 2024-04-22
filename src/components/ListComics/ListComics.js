@@ -8,7 +8,7 @@ export default function ListComics({
 }) {
   const { loading, result } = listComics;
 
-  if (loading || result) {
+  if (loading || !result) {
     return (
       <div class="comics-loading-container">
       <Dimmer active>

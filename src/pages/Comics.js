@@ -15,7 +15,7 @@ export default function Comics() {
       <Grid>
         <Grid.Column>
           <Container bg="light">
-            <Header as="h2">The Best Comics</Header>
+            <Header as="h2" className="ui grey inverted header">The Best Comics</Header>
             <ListComics
               listComics={listComics}
               renderComics={renderComics}
