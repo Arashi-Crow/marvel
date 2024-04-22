@@ -9,7 +9,7 @@ This is a React web application that allows you to explore the newest comic seri
 
 ## Live Demo
 
-You can see a live demo of this application [here](https://magenta-kulfi-898887.netlify.app/).
+You can see a live demo of this application [here](https://marvel-info-2204.netlify.app).
 
 ## Technologies Used
 
