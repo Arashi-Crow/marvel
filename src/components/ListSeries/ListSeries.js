@@ -14,7 +14,7 @@ export default function ListSeries({ listSeries }) {
   const { results } = result.data;
 
   return (
-    <Card.Group itemsPerRow={5}>
+    <Card.Group itemsPerRow={5} stackable>
       {results.map((res, index) => (
         <Card key={index} className="list-series">
           <Image
