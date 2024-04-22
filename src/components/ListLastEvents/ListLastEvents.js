@@ -13,7 +13,7 @@ export default function ListLastEvents() {
     <div className="container-list-last-events">
       <Header size="large">Last Events</Header>
       <Container>
-        <Card.Group itemsPerRow={5}>
+        <Card.Group itemsPerRow={5} stackable>
           <LastEvents lastEventsFetch={lastEventsFetch} />
         </Card.Group>
       </Container>
