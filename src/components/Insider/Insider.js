@@ -3,6 +3,11 @@ import ImageInsider from "../../img/insider.jpeg";
 import "./Insider.scss";
 
 export default function Insider() {
+
+  const handleClick = () => {
+    window.open("https://www.marvel.com", "_blank");
+  };
+
   return (
     <div className="container-insider">
       <Grid container columns="2">
@@ -17,7 +22,7 @@ export default function Insider() {
             Earn points doing what you love
           </Header>
           <div className="container-insider-content-button">
-            <Button>Join now</Button>
+            <Button onClick={handleClick}>Join now</Button>
           </div>
         </Grid.Column>
       </Grid>
