@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
 }
 
 code {
@@ -34,10 +35,12 @@ code {
 
 #slide-comics-image {
   padding: 50px 0;
+  margin-bottom: 14px;
   width: 100%;
   background-image: url(./img/slide-comics.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 350px;
-  background-position: top;
 }
 
 #slide-series-image {
