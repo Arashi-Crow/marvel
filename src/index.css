@@ -40,14 +40,18 @@ code {
   background-image: url(./img/slide-comics.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top;
   height: 350px;
 }
 
 #slide-series-image {
   padding: 50px 0;
+  margin-bottom: 14px;
   width: 100%;
   background-image: url(./img/last-movies.jpeg);
   height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: top;
 }
 

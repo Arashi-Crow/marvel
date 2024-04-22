@@ -10,11 +10,9 @@ export default function ListComics({
 
   if (loading || !result) {
     return (
-      <div class="comics-loading-container">
       <Dimmer active>
         <Loader size="massive">Loading</Loader>
       </Dimmer>
-      </div>
     );
   }
 

@@ -9,18 +9,18 @@ export default function Series() {
   );
 
   return (
-    <div>
-      <div className="series-page">
-        <div id="slide-series-image" />
-        <Grid>
-          <Grid.Column>
-            <Container bg="light">
-              <Header as="h2" className="ui grey inverted header">Newest Marvel Series</Header>
-              <ListSeries listSeries={listSeries} />
-            </Container>
-          </Grid.Column>
-        </Grid>
-      </div>
+    <div className="series-page">
+      <div id="slide-series-image" />
+      <Grid>
+        <Grid.Column>
+          <Container bg="light">
+            <Header as="h2" className="ui grey inverted header">
+              Newest Marvel Series
+            </Header>
+            <ListSeries listSeries={listSeries} />
+          </Container>
+        </Grid.Column>
+      </Grid>
     </div>
   );
 }
